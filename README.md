@@ -9,4 +9,6 @@
 
  - Add navBar Component page from Daisy ui
  
- - install react router dom and create route
+ - Install react router dom and create route
+
+ - Create body component and add footer, login, feed component
