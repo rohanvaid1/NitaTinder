@@ -8,3 +8,5 @@
  - Add tailwind css and daisy UI
 
  - Add navBar Component page from Daisy ui
+ 
+ - install react router dom and create route
