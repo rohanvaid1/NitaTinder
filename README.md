@@ -6,3 +6,5 @@
  - Create .env file and add node_modules
 
  - Add tailwind css and daisy UI
+
+ - Add navBar Component page from Daisy ui
