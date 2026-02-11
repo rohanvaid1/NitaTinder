@@ -1,10 +1,13 @@
 import React from 'react'
 import { BASE_URL } from '../utils/constants';
 import axios from 'axios';
+import { addUser } from '../utils/userSlice';
+import { useDispatch } from 'react-redux';
 
 const Login = () => {
   const [email, setEmail] = React.useState("madhu@gmail.com");
   const [password, setPassword] = React.useState("Madhu@123456");
+  const dispatch = useDispatch();
 
   const handleLogin = async () => {
       try {
@@ -16,6 +19,7 @@ const Login = () => {
             withCredentials: true,
           });
           console.log("Login successful:", res.data);
+          dispatch(addUser(res.data));
       } catch (error) {
           console.error("Login failed:", error);
           if (error.response) {

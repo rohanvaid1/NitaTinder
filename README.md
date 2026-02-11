@@ -16,3 +16,5 @@
  - Create a components and utils folders
 
  - Create login page and install axios
+
+ - Install Redux and create your store and slice
