@@ -15,4 +15,4 @@
 
  - Create a components and utils folders
 
- - Create login page
+ - Create login page and install axios
