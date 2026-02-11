@@ -12,3 +12,7 @@
  - Install react router dom and create route
 
  - Create body component and add footer, login, feed component
+
+ - Create a components and utils folders
+
+ - Create login page

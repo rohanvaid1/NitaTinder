@@ -1,8 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Navbar from "./Navbar"
-import Body from "./Body"
-import Login from "./Login"
-import Feed from "./Feed"
+import Navbar from "./components/Navbar"
+import Body from "./components/Body"
+
 
 
 function App() {
